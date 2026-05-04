@@ -3,7 +3,7 @@ window.siteData = {
     eyebrow: "Wellness • Recovery • Hospitality",
     headline: "Anna Starostina",
     summary:
-      "Operations and wellness leader with a background in senior banking management, founder-level wellness business building, and hands-on recovery concept development for hospitality projects in Montenegro.",
+      "Wellness and operations professional with 12+ years of experience in recovery programs, wellness centers and hospitality projects, backed by financial control, team leadership and service excellence expertise.",
     primaryCta: {
       label: "View profile",
       href: "#story",
@@ -16,56 +16,64 @@ window.siteData = {
   story: {
     title: "Management depth shaped by finance, wellness and recovery operations.",
     paragraphs: [
-      "Anna Starostina brings more than 20 years of senior-level experience in finance, people management, operations and client service, followed by a strategic shift into wellness and recovery services.",
-      "In 2013 she opened her own Kinesitherapy and Wellness Center, where she built service packages, recovery programs, staffing standards and operational systems across kinesitherapy, massage, cosmetology, cryotherapy, orthopedics and nutrition.",
-      "Since moving to Montenegro in 2022, she has advised the owner of a five-star hotel under construction on the full concept for its wellness and fitness center, including service design, workflows, ROI modeling and supplier negotiations."
+      "Anna Starostina is a wellness and operations manager whose profile combines guest experience, premium client service, financial discipline and team leadership across both hospitality-linked wellness projects and regulated corporate environments.",
+      "Since 2013 she has led the Bubnovsky Kinesitherapy and Wellness Center as Founder and Operations Director, overseeing recovery programs, staffing, service standards, payroll logic, management accounting and long-term business sustainability.",
+      "In 2024-2025 she advised a five-star hotel project in Montenegro on the concept and positioning of a future wellness and fitness center, covering service mix, sample packages, space planning, equipment layout, ROI and supplier negotiations."
     ],
     metrics: [
       {
-        title: "20+ years",
-        text: "Senior management background in finance, operations and client-facing leadership."
+        title: "12+ years",
+        text: "Wellness and operations experience in recovery programs, wellness centers and hospitality projects."
       },
       {
         title: "2013",
-        text: "Founded and developed a Kinesitherapy and Wellness Center from the ground up."
+        text: "Founded and continues to lead a private Kinesitherapy and Wellness Center."
       },
       {
-        title: "Montenegro",
-        text: "Consulting on wellness, fitness and recovery strategy for hospitality projects since 2022."
+        title: "1997-2025",
+        text: "Career span across banking, factoring, charitable operations and wellness advisory."
       }
     ]
   },
   focus: {
     title: "Core areas of expertise.",
     intro:
-      "This profile is based on the provided cover letter and highlights the intersections where management discipline and wellness specialization reinforce each other.",
+      "This profile is based on the CV you provided and highlights the areas where wellness specialization and operational rigor reinforce each other.",
     items: [
       {
         title: "Recovery and wellness program design",
-        text: "Design of recovery services, service packages, guest journeys and practical treatment concepts aligned with healthy lifestyle positioning."
+        text: "Design and supervision of wellness and kinesitherapy programs, with recovery and fitness services integrated into hospitality and guest-facing environments."
       },
       {
         title: "Hospitality concept development",
-        text: "Wellness and fitness center concept creation, workflow planning, ROI modeling, vendor communication and equipment proposal evaluation."
+        text: "Concept creation for wellness and fitness centers, including service mix, space logic, market positioning, ROI modeling and equipment evaluation."
       },
       {
         title: "Operational leadership",
-        text: "Staff recruitment, training, service standards, CRM-aware process thinking and cross-functional operational oversight."
+        text: "Recruitment, training, KPI systems, payroll logic, guest service standards, workflow optimization and financially grounded decision-making."
       }
     ]
   },
   notes: {
-    title: "Additional professional context.",
+    title: "Credentials, tools and languages.",
     paragraphs: [
-      "Anna also served as COO of a charitable foundation in Montenegro, building local institutional relationships and working with international organizations including the UN while adapting to the regional business environment.",
-      "Her practical exposure includes hydrotherapy, balneological treatments, cryotherapy, carbon dioxide dry baths, pressotherapy, UHF, light therapy, ozonotherapy, carboxytherapy, classical massage, applied kinesiology and kinesitherapy-related training."
+      "Earlier leadership roles include Chief Operating and Financial Officer at a charitable foundation in Montenegro, Director of MSP Factoring Service Center in Russia, and senior regional operational leadership roles at VTB24 and VTB Bank with responsibility for service quality, budgeting, HR development and compliance-aware operations.",
+      "Her profile combines economics education, leadership and finance training, recent kinesitherapy and recovery certifications, and practical tools including MS Office, Google Workspace, 1C, Project Expert, ERP systems, Notion, ChatGPT, Gamma and UMC Medicine. Languages: Russian, English, Montenegrin and German."
     ]
   },
   contact: {
     title: "Contact and profile links.",
     copy:
-      "This version uses verified details extracted from the provided PDF. It can be expanded further with a CV, public LinkedIn summary, email address or selected projects.",
+      "This version uses verified details extracted from your CV. It can be expanded next with achievements, certifications, project cases and a stronger personal-brand presentation if you want a more premium public-facing profile.",
     links: [
+      {
+        label: "Email",
+        href: "mailto:anna1975starostina@gmail.com",
+      },
+      {
+        label: "Phone",
+        href: "tel:+38268186572",
+      },
       {
         label: "LinkedIn",
         href: "https://www.linkedin.com/in/anna-starostina-5246b4112/",
