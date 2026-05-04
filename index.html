@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Anna Starostina</title>
+    <meta
+      name="description"
+      content="Личный сайт-визитка Anna Starostina: профиль, направления работы и прямой способ связаться."
+    />
+    <meta name="theme-color" content="#ede7dc" />
+    <meta property="og:title" content="Anna Starostina" />
+    <meta
+      property="og:description"
+      content="Личный сайт-визитка: кратко, выразительно, по делу."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-nav">
+        <a class="brand" href="#top">Anna Starostina</a>
+        <nav>
+          <a href="#story">О сайте</a>
+          <a href="#focus">Фокус</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow" id="eyebrow"></p>
+            <h1 id="headline"></h1>
+            <p class="hero-summary" id="summary"></p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="primary-cta" href="#contact"></a>
+              <a class="button button-secondary" id="secondary-cta" href="#story"></a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-ring visual-ring-large"></div>
+            <div class="visual-ring visual-ring-small"></div>
+            <div class="visual-panel">
+              <span class="visual-kicker">Digital card</span>
+              <span class="visual-name">Anna</span>
+              <span class="visual-line"></span>
+              <span class="visual-caption">Clear profile. Selected work. Direct contact.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="story reveal" id="story">
+          <div class="section-heading">
+            <p class="section-label">О сайте</p>
+            <h2 id="story-title"></h2>
+          </div>
+          <div class="story-layout">
+            <div class="story-text" id="story-body"></div>
+            <div class="story-metrics" id="metrics"></div>
+          </div>
+        </section>
+
+        <section class="focus reveal" id="focus">
+          <div class="section-heading">
+            <p class="section-label">Фокус</p>
+            <h2 id="focus-title"></h2>
+            <p class="section-intro" id="focus-intro"></p>
+          </div>
+          <div class="focus-grid" id="focus-grid"></div>
+        </section>
+
+        <section class="notes reveal" id="notes">
+          <div class="section-heading">
+            <p class="section-label">Статус профиля</p>
+            <h2 id="notes-title"></h2>
+          </div>
+          <div class="notes-copy" id="notes-body"></div>
+        </section>
+
+        <section class="contact reveal" id="contact">
+          <div class="contact-card">
+            <p class="section-label">Связаться</p>
+            <h2 id="contact-title"></h2>
+            <p class="contact-copy" id="contact-copy"></p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span id="footer-line"></span>
+        <span id="footer-year"></span>
+      </footer>
+    </div>
+
+    <script src="./site-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
