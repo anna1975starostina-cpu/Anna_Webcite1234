@@ -20,6 +20,14 @@ setText("eyebrow", siteData.hero.eyebrow);
 setText("headline", siteData.hero.headline);
 setText("summary", siteData.hero.summary);
 
+const portraitFrame = document.getElementById("portrait-frame");
+const portraitImage = document.getElementById("portrait-image");
+if (siteData.hero.photo) {
+  portraitImage.src = siteData.hero.photo;
+  portraitImage.alt = `${siteData.hero.headline} portrait`;
+  portraitFrame.classList.add("has-photo");
+}
+
 const primaryCta = document.getElementById("primary-cta");
 primaryCta.textContent = siteData.hero.primaryCta.label;
 primaryCta.href = siteData.hero.primaryCta.href;

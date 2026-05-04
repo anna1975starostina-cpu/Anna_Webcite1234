@@ -4,6 +4,7 @@ window.siteData = {
     headline: "Anna Starostina",
     summary:
       "Wellness and operations professional with 12+ years of experience in recovery programs, wellness centers and hospitality projects, backed by financial control, team leadership and service excellence expertise.",
+    photo: "",
     primaryCta: {
       label: "View profile",
       href: "#story",
@@ -63,8 +64,7 @@ window.siteData = {
   },
   contact: {
     title: "Contact and profile links.",
-    copy:
-      "This version uses verified details extracted from your CV. It can be expanded next with achievements, certifications, project cases and a stronger personal-brand presentation if you want a more premium public-facing profile.",
+    copy: "",
     links: [
       {
         label: "Email",
