@@ -1,70 +1,75 @@
 window.siteData = {
   hero: {
-    eyebrow: "Personal website",
+    eyebrow: "Wellness • Recovery • Hospitality",
     headline: "Anna Starostina",
     summary:
-      "Аккуратный сайт-визитка для знакомств, новых разговоров и точечной презентации профиля. Страница уже готова к публикации на GitHub Pages и будет быстро дополнена точными карьерными фактами после подтверждения источника.",
+      "Operations and wellness leader with a background in senior banking management, founder-level wellness business building, and hands-on recovery concept development for hospitality projects in Montenegro.",
     primaryCta: {
-      label: "Написать",
-      href: "#contact",
+      label: "View profile",
+      href: "#story",
     },
     secondaryCta: {
-      label: "Что здесь есть",
-      href: "#story",
+      label: "Contact",
+      href: "#contact",
     },
   },
   story: {
-    title: "Небольшой, но выразительный цифровой профиль.",
+    title: "Management depth shaped by finance, wellness and recovery operations.",
     paragraphs: [
-      "Этот сайт сделан как современная визитка: без перегруженных блоков, с сильным первым экраном, ясной структурой и достаточным пространством для будущего наполнения. Он уже подходит для публикации и может служить вашей публичной точкой входа.",
-      "Я сознательно не подставлял биографию, должности и опыт наугад: указанный LinkedIn URL сейчас возвращает 404, поэтому фактический профессиональный профиль лучше заполнить только проверенными данными. Макет под это уже подготовлен."
+      "Anna Starostina brings more than 20 years of senior-level experience in finance, people management, operations and client service, followed by a strategic shift into wellness and recovery services.",
+      "In 2013 she opened her own Kinesitherapy and Wellness Center, where she built service packages, recovery programs, staffing standards and operational systems across kinesitherapy, massage, cosmetology, cryotherapy, orthopedics and nutrition.",
+      "Since moving to Montenegro in 2022, she has advised the owner of a five-star hotel under construction on the full concept for its wellness and fitness center, including service design, workflows, ROI modeling and supplier negotiations."
     ],
     metrics: [
       {
-        title: "Формат",
-        text: "Одна страница, адаптивная вёрстка, чистый GitHub Pages деплой."
+        title: "20+ years",
+        text: "Senior management background in finance, operations and client-facing leadership."
       },
       {
-        title: "Принцип",
-        text: "Сильный бренд-сигнал, короткий текст, одна задача на секцию и выразительный визуальный якорь."
+        title: "2013",
+        text: "Founded and developed a Kinesitherapy and Wellness Center from the ground up."
       },
       {
-        title: "Готовность",
-        text: "Дизайн, структура и автоматический workflow публикации уже включены."
+        title: "Montenegro",
+        text: "Consulting on wellness, fitness and recovery strategy for hospitality projects since 2022."
       }
     ]
   },
   focus: {
-    title: "Что этот сайт будет делать для вас.",
+    title: "Core areas of expertise.",
     intro:
-      "Сейчас страница работает как polished landing card. После подтверждения данных из LinkedIn или резюме она легко превращается в полноценный персональный профиль.",
+      "This profile is based on the provided cover letter and highlights the intersections where management discipline and wellness specialization reinforce each other.",
     items: [
       {
-        title: "Публичное представление",
-        text: "Первый экран сразу показывает имя, тон и ощущение от личного бренда без типового шаблона."
+        title: "Recovery and wellness program design",
+        text: "Design of recovery services, service packages, guest journeys and practical treatment concepts aligned with healthy lifestyle positioning."
       },
       {
-        title: "Профессиональный контекст",
-        text: "Сюда можно быстро подставить краткую биографию, опыт, специализацию, сильные стороны и основные вехи."
+        title: "Hospitality concept development",
+        text: "Wellness and fitness center concept creation, workflow planning, ROI modeling, vendor communication and equipment proposal evaluation."
       },
       {
-        title: "Прямой контакт",
-        text: "Секция связи уже готова для ссылок на почту, LinkedIn, Telegram, GitHub или другие каналы."
+        title: "Operational leadership",
+        text: "Staff recruitment, training, service standards, CRM-aware process thinking and cross-functional operational oversight."
       }
     ]
   },
   notes: {
-    title: "Почему факты о карьере пока не заполнены.",
+    title: "Additional professional context.",
     paragraphs: [
-      "Проверка через поиск и прямое открытие страницы показала, что ссылка `linkedin.com/in/anna-starostina-5246b4112` сейчас недоступна публично и ведёт на страницу `404`.",
-      "Как только вы пришлёте корректный публичный URL LinkedIn или текст резюме, этот шаблон можно за несколько минут наполнить реальной биографией, ролями, компаниями, навыками и контактами без изменения дизайна."
+      "Anna also served as COO of a charitable foundation in Montenegro, building local institutional relationships and working with international organizations including the UN while adapting to the regional business environment.",
+      "Her practical exposure includes hydrotherapy, balneological treatments, cryotherapy, carbon dioxide dry baths, pressotherapy, UHF, light therapy, ozonotherapy, carboxytherapy, classical massage, applied kinesiology and kinesitherapy-related training."
     ]
   },
   contact: {
-    title: "Следующий шаг.",
+    title: "Contact and profile links.",
     copy:
-      "Если хотите, я могу сразу подставить точный профиль и финализировать сайт после одного уточнения: пришлите рабочую ссылку на LinkedIn или текстовое резюме. Пока оставил безопасные каналы, которые уже известны.",
+      "This version uses verified details extracted from the provided PDF. It can be expanded further with a CV, public LinkedIn summary, email address or selected projects.",
     links: [
+      {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/anna-starostina-5246b4112/",
+      },
       {
         label: "GitHub",
         href: "https://github.com/anna1975starostina-cpu",
