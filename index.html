@@ -6,14 +6,16 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Anna Starostina</title>
+    <title id="page-title">Anna Starostina</title>
     <meta
+      id="page-description"
       name="description"
       content="Anna Starostina: operations, wellness, recovery, hospitality concept development and leadership."
     />
     <meta name="theme-color" content="#ede7dc" />
-    <meta property="og:title" content="Anna Starostina" />
+    <meta id="og-title" property="og:title" content="Anna Starostina" />
     <meta
+      id="og-description"
       property="og:description"
       content="Personal profile in wellness, recovery and hospitality leadership."
     />
@@ -30,11 +32,17 @@
     <div class="page-shell">
       <header class="site-nav">
         <a class="brand" href="#top">Anna Starostina</a>
-        <nav>
-          <a href="#story">О сайте</a>
-          <a href="#focus">Фокус</a>
-          <a href="#contact">Контакты</a>
-        </nav>
+        <div class="nav-controls">
+          <nav>
+            <a id="nav-story" href="#story">About</a>
+            <a id="nav-focus" href="#focus">Focus</a>
+            <a id="nav-contact" href="#contact">Contact</a>
+          </nav>
+          <div class="lang-switcher" aria-label="Language switcher">
+            <button class="lang-button" id="lang-en" type="button">EN</button>
+            <button class="lang-button" id="lang-ru" type="button">RU</button>
+          </div>
+        </div>
       </header>
 
       <main id="top">
@@ -62,10 +70,10 @@
                 <div class="portrait-monogram" id="portrait-monogram">AS</div>
               </div>
               <div class="visual-panel">
-                <span class="visual-kicker">Wellness leadership</span>
-                <span class="visual-name">Montenegro</span>
+                <span class="visual-kicker" id="visual-kicker">Wellness leadership</span>
+                <span class="visual-name" id="visual-name">Montenegro</span>
                 <span class="visual-line"></span>
-                <span class="visual-caption">Recovery, operations, financial control and guest experience.</span>
+                <span class="visual-caption" id="visual-caption">Recovery, operations, financial control and guest experience.</span>
               </div>
             </div>
           </div>
@@ -73,7 +81,7 @@
 
         <section class="story reveal" id="story">
           <div class="section-heading">
-            <p class="section-label">О сайте</p>
+            <p class="section-label" id="story-label">About</p>
             <h2 id="story-title"></h2>
           </div>
           <div class="story-layout">
@@ -84,7 +92,7 @@
 
         <section class="focus reveal" id="focus">
           <div class="section-heading">
-            <p class="section-label">Фокус</p>
+            <p class="section-label" id="focus-label">Focus</p>
             <h2 id="focus-title"></h2>
             <p class="section-intro" id="focus-intro"></p>
           </div>
@@ -93,7 +101,7 @@
 
         <section class="notes reveal" id="notes">
           <div class="section-heading">
-            <p class="section-label">Статус профиля</p>
+            <p class="section-label" id="notes-label">Profile details</p>
             <h2 id="notes-title"></h2>
           </div>
           <div class="notes-copy" id="notes-body"></div>
@@ -101,7 +109,7 @@
 
         <section class="contact reveal" id="contact">
           <div class="contact-card">
-            <p class="section-label">Связаться</p>
+            <p class="section-label" id="contact-label">Contact</p>
             <h2 id="contact-title"></h2>
             <p class="contact-copy" id="contact-copy"></p>
             <div class="contact-links" id="contact-links"></div>
