@@ -8,91 +8,132 @@ window.siteData = {
       meta: {
         title: "Anna Starostina",
         description:
-          "Anna Starostina: operations, wellness, recovery, hospitality concept development and leadership.",
+          "Anna Starostina: wellness, recovery, hospitality concept development, operations and financial control.",
         ogTitle: "Anna Starostina",
         ogDescription:
-          "Personal profile in wellness, recovery and hospitality leadership.",
+          "Wellness, recovery and operations leadership profile based in Montenegro.",
       },
       nav: {
-        story: "About",
-        focus: "Focus",
+        expertise: "Expertise",
+        career: "Career",
         contact: "Contact",
       },
       visual: {
-        kicker: "Wellness leadership",
+        kicker: "Recovery and hospitality",
         name: "Montenegro",
         caption:
-          "Recovery, operations, financial control and guest experience.",
+          "Wellness concept development, team leadership and financially grounded operations.",
       },
       hero: {
-        eyebrow: "Wellness • Recovery • Hospitality",
+        location: "Montenegro",
         headline: "Anna Starostina",
         summary:
-          "Wellness and operations professional with 12+ years of experience in recovery programs, wellness centers and hospitality projects, backed by financial control, team leadership and service excellence expertise.",
+          "Wellness and operations leader connecting recovery programs, hospitality thinking, financial control and service excellence.",
         primaryCta: {
-          label: "View profile",
-          href: "#story",
+          label: "LinkedIn profile",
+          href: "https://www.linkedin.com/in/anna-starostina-5246b4112/",
         },
         secondaryCta: {
-          label: "Contact",
-          href: "#contact",
+          label: "View career",
+          href: "#career",
         },
-      },
-      story: {
-        label: "About",
-        title: "Management depth shaped by finance, wellness and recovery operations.",
-        paragraphs: [
-          "Anna Starostina is a wellness and operations manager whose profile combines guest experience, premium client service, financial discipline and team leadership across both hospitality-linked wellness projects and regulated corporate environments.",
-          "Since 2013 she has led the Bubnovsky Kinesitherapy and Wellness Center as Founder and Operations Director, overseeing recovery programs, staffing, service standards, payroll logic, management accounting and long-term business sustainability.",
-          "In 2024-2025 she advised a five-star hotel project in Montenegro on the concept and positioning of a future wellness and fitness center, covering service mix, sample packages, space planning, equipment layout, ROI and supplier negotiations.",
-        ],
-        metrics: [
+        snapshot: [
           {
-            title: "12+ years",
-            text: "Wellness and operations experience in recovery programs, wellness centers and hospitality projects.",
+            value: "12+",
+            label: "years in wellness operations",
           },
           {
-            title: "2013",
-            text: "Founded and continues to lead a private Kinesitherapy and Wellness Center.",
+            value: "2013",
+            label: "founded wellness center",
           },
           {
-            title: "1997-2025",
-            text: "Career span across banking, factoring, charitable operations and wellness advisory.",
+            value: "5★",
+            label: "hotel wellness advisory",
           },
         ],
       },
-      focus: {
-        label: "Focus",
-        title: "Core areas of expertise.",
+      profile: {
+        label: "Profile",
+        title: "Wellness systems that make guest experience stronger and operations clearer.",
         intro:
-          "This profile is based on the CV you provided and highlights the areas where wellness specialization and operational rigor reinforce each other.",
+          "Anna builds recovery and wellness environments where guest care, service standards, team discipline and financial visibility reinforce each other. Her background spans senior banking leadership, founder-led wellness operations, charitable executive management and hospitality advisory in Montenegro.",
+      },
+      expertise: {
+        label: "Expertise",
+        title: "Where structure turns into recovery-led service.",
         items: [
           {
-            title: "Recovery and wellness program design",
-            text: "Design and supervision of wellness and kinesitherapy programs, with recovery and fitness services integrated into hospitality and guest-facing environments.",
+            number: "01",
+            title: "Recovery program design",
+            text: "Designing wellness and kinesitherapy services, treatment logic and guest-facing recovery journeys.",
           },
           {
+            number: "02",
             title: "Hospitality concept development",
-            text: "Concept creation for wellness and fitness centers, including service mix, space logic, market positioning, ROI modeling and equipment evaluation.",
+            text: "Shaping wellness and fitness centers through service mix, space logic, equipment planning and market positioning.",
           },
           {
+            number: "03",
             title: "Operational leadership",
-            text: "Recruitment, training, KPI systems, payroll logic, guest service standards, workflow optimization and financially grounded decision-making.",
+            text: "Building staffing, service standards, payroll logic, KPI systems and stable day-to-day execution.",
+          },
+          {
+            number: "04",
+            title: "Financial and business control",
+            text: "Applying budgeting, ROI modeling, management accounting and cost discipline to wellness operations.",
           },
         ],
       },
-      notes: {
-        label: "Profile details",
-        title: "Credentials, tools and languages.",
-        paragraphs: [
-          "Earlier leadership roles include Chief Operating and Financial Officer at a charitable foundation in Montenegro, Director of MSP Factoring Service Center in Russia, and senior regional operational leadership roles at VTB24 and VTB Bank with responsibility for service quality, budgeting, HR development and compliance-aware operations.",
-          "Her profile combines economics education, leadership and finance training, recent kinesitherapy and recovery certifications, and practical tools including MS Office, Google Workspace, 1C, Project Expert, ERP systems, Notion, ChatGPT, Gamma and UMC Medicine. Languages: Russian, English, Montenegrin and German.",
+      quote: {
+        label: "Working style",
+        text:
+          "Strong recovery service is not only about treatments. It is about building an environment where guests feel cared for, teams know how to deliver, and operations stay commercially grounded.",
+      },
+      career: {
+        label: "Career",
+        title: "A cross-functional path from banking leadership to wellness and hospitality advisory.",
+        items: [
+          {
+            period: "2024 - 2025",
+            role: "Consultant - Wellness & Hospitality Project Advisory",
+            company: "5-star hotel project, Montenegro",
+          },
+          {
+            period: "2013 - Present",
+            role: "Founder & Operations Director",
+            company: "Bubnovsky Kinesitherapy & Wellness Center",
+          },
+          {
+            period: "2023 - 2024",
+            role: "Chief Operating and Financial Officer",
+            company: "Non-governmental charitable foundation, Montenegro",
+          },
+          {
+            period: "2019 - 2022",
+            role: "Director",
+            company: "MSP Factoring Service Center, Russia",
+          },
+          {
+            period: "2004 - 2019",
+            role: "Deputy Head of Regional Office / Head of Credit & Cash Office",
+            company: "VTB24 / VTB Bank, Russia",
+          },
+          {
+            period: "1997 - 2004",
+            role: "Earlier finance and credit leadership roles",
+            company: "EBRD SME Lending Program, SBS-Agro Bank, Sberbank",
+          },
         ],
+      },
+      education: {
+        label: "Education",
+        title: "Specialist in Economics",
+        copy:
+          "Yaroslavl State University, Russia, plus extensive professional training in leadership, finance, recruitment, banking management, kinesitherapy, applied kinesiology and recovery program design.",
       },
       contact: {
         label: "Contact",
-        title: "Contact and profile links.",
-        copy: "",
+        title: "Let's talk about wellness strategy, recovery concepts and operational clarity.",
         links: [
           {
             label: "Email",
@@ -110,105 +151,163 @@ window.siteData = {
             label: "GitHub",
             href: "https://github.com/anna1975starostina-cpu",
           },
-          {
-            label: "Site repository",
-            href: "https://github.com/anna1975starostina-cpu/Anna_Webcite1234",
-          },
         ],
+        form: {
+          nameLabel: "Your name",
+          emailLabel: "Your email",
+          subjectLabel: "Subject",
+          messageLabel: "Message",
+          submitLabel: "Send email",
+          note:
+            "This form works on GitHub Pages by opening your default email client with the completed message.",
+          placeholders: {
+            name: "Name",
+            email: "email@example.com",
+            subject: "Wellness leadership conversation",
+            message: "Write a short note",
+          },
+          validation: {
+            missing: "Please fill in your name, email, subject and message.",
+            invalidEmail: "Please enter a valid email address.",
+            ready: "Your email client should open now.",
+          },
+        },
       },
       footer: {
-        line: "Anna Starostina",
+        line: "© 2026 Anna Starostina. Built for GitHub Pages.",
+        credit: "Bilingual profile site with static contact workflow.",
       },
     },
     ru: {
       meta: {
         title: "Анна Старостина",
         description:
-          "Анна Старостина: операционный менеджмент, wellness, recovery, разработка гостиничных концепций и лидерство команд.",
+          "Анна Старостина: wellness, recovery, разработка гостиничных концепций, операционный менеджмент и финансовый контроль.",
         ogTitle: "Анна Старостина",
         ogDescription:
-          "Персональный профиль в wellness, recovery и управлении сервисом.",
+          "Профиль в wellness, recovery и операционном лидерстве в Черногории.",
       },
       nav: {
-        story: "О профиле",
-        focus: "Экспертиза",
+        expertise: "Экспертиза",
+        career: "Карьера",
         contact: "Контакты",
       },
       visual: {
-        kicker: "Лидерство в wellness",
+        kicker: "Recovery и hospitality",
         name: "Черногория",
         caption:
-          "Recovery, операционный менеджмент, финансовый контроль и guest experience.",
+          "Разработка wellness-концепций, управление командами и операционная модель с опорой на финансы.",
       },
       hero: {
-        eyebrow: "Wellness • Recovery • Hospitality",
+        location: "Черногория",
         headline: "Анна Старостина",
         summary:
-          "Профессионал в wellness и операционном управлении с опытом более 12 лет в recovery-программах, wellness-центрах и гостиничных проектах, с сильной базой в финансовом контроле, управлении командами и сервисном качестве.",
+          "Лидер в wellness и операционном управлении, соединяющий recovery-программы, hospitality-подход, финансовый контроль и сервисное качество.",
         primaryCta: {
-          label: "Смотреть профиль",
-          href: "#story",
+          label: "Профиль LinkedIn",
+          href: "https://www.linkedin.com/in/anna-starostina-5246b4112/",
         },
         secondaryCta: {
-          label: "Связаться",
-          href: "#contact",
+          label: "Смотреть карьеру",
+          href: "#career",
         },
-      },
-      story: {
-        label: "О профиле",
-        title: "Управленческий опыт на стыке финансов, wellness и recovery-операций.",
-        paragraphs: [
-          "Анна Старостина — wellness и operations manager, чей профиль объединяет guest experience, работу с премиальными клиентами, финансовую дисциплину и лидерство команд в wellness-проектах и в строго регулируемой корпоративной среде.",
-          "С 2013 года она руководит Bubnovsky Kinesitherapy and Wellness Center как Founder и Operations Director, отвечая за recovery-программы, подбор и управление персоналом, стандарты сервиса, payroll-логику, управленческий учёт и долгосрочную устойчивость бизнеса.",
-          "В 2024-2025 годах она консультировала проект пятизвёздочного отеля в Черногории по концепции и позиционированию будущего wellness и fitness center, включая сервисный микс, примерные пакеты, пространственное планирование, расстановку оборудования, ROI и переговоры с поставщиками.",
-        ],
-        metrics: [
+        snapshot: [
           {
-            title: "12+ лет",
-            text: "Опыт в wellness и операционном управлении recovery-программами, wellness-центрами и гостиничными проектами.",
+            value: "12+",
+            label: "лет в wellness operations",
           },
           {
-            title: "2013",
-            text: "Основан и до сих пор развивается частный центр кинезитерапии и wellness.",
+            value: "2013",
+            label: "основан wellness-центр",
           },
           {
-            title: "1997-2025",
-            text: "Карьерный путь через banking, factoring, charitable operations и wellness advisory.",
+            value: "5★",
+            label: "консалтинг для hotel wellness",
           },
         ],
       },
-      focus: {
-        label: "Экспертиза",
-        title: "Ключевые направления экспертизы.",
+      profile: {
+        label: "Профиль",
+        title: "Wellness-системы, которые усиливают guest experience и делают операционку прозрачнее.",
         intro:
-          "Этот профиль основан на предоставленном CV и показывает зоны, где wellness-специализация усиливается операционной строгостью и финансовым мышлением.",
+          "Анна выстраивает recovery и wellness-среды, где забота о госте, стандарты сервиса, дисциплина команды и финансовая прозрачность усиливают друг друга. Её опыт соединяет senior banking leadership, founder-led wellness operations, executive management в charitable sector и hospitality advisory в Черногории.",
+      },
+      expertise: {
+        label: "Экспертиза",
+        title: "Там, где структура превращается в recovery-ориентированный сервис.",
         items: [
           {
-            title: "Проектирование recovery и wellness-программ",
-            text: "Разработка и контроль wellness и kinesitherapy-программ с интеграцией recovery и fitness-сервисов в hospitality и guest-facing среды.",
+            number: "01",
+            title: "Проектирование recovery-программ",
+            text: "Разработка wellness и kinesitherapy-сервисов, логики процедур и гостевого recovery-пути.",
           },
           {
-            title: "Разработка гостиничных wellness-концепций",
-            text: "Создание концепций wellness и fitness-центров, включая сервисный микс, логику пространства, рыночное позиционирование, ROI-модели и оценку оборудования.",
+            number: "02",
+            title: "Разработка hospitality-концепций",
+            text: "Формирование wellness и fitness-центров через сервисный микс, логику пространства, планирование оборудования и рыночное позиционирование.",
           },
           {
+            number: "03",
             title: "Операционное лидерство",
-            text: "Подбор и развитие персонала, KPI-системы, payroll-логика, стандарты обслуживания, оптимизация процессов и принятие решений на основе финансовых данных.",
+            text: "Построение staffing-модели, стандартов сервиса, payroll-логики, KPI-систем и стабильной ежедневной работы.",
+          },
+          {
+            number: "04",
+            title: "Финансовый и бизнес-контроль",
+            text: "Применение budgeting, ROI-моделей, управленческого учёта и cost discipline в wellness-операциях.",
           },
         ],
       },
-      notes: {
-        label: "Детали профиля",
-        title: "Квалификация, инструменты и языки.",
-        paragraphs: [
-          "Ранее Анна занимала роли Chief Operating and Financial Officer в благотворительном фонде в Черногории, Director в MSP Factoring Service Center в России, а также senior regional operational leadership roles в VTB24 и VTB Bank с ответственностью за качество сервиса, бюджеты, HR-развитие и compliance-aware operations.",
-          "Её профиль сочетает экономическое образование, лидерские и финансовые программы обучения, свежие сертификации по kinesitherapy и recovery, а также практическое владение MS Office, Google Workspace, 1C, Project Expert, ERP-системами, Notion, ChatGPT, Gamma и UMC Medicine. Языки: русский, английский, черногорский и немецкий.",
+      quote: {
+        label: "Стиль работы",
+        text:
+          "Сильный recovery-сервис строится не только на процедурах. Он строится на среде, где гость чувствует заботу, команда понимает стандарт, а операционная модель остаётся коммерчески устойчивой.",
+      },
+      career: {
+        label: "Карьера",
+        title: "Путь на стыке банковского лидерства, wellness-операций и гостиничного консалтинга.",
+        items: [
+          {
+            period: "2024 - 2025",
+            role: "Consultant - Wellness & Hospitality Project Advisory",
+            company: "Проект 5-звёздочного отеля, Черногория",
+          },
+          {
+            period: "2013 - Настоящее время",
+            role: "Founder & Operations Director",
+            company: "Bubnovsky Kinesitherapy & Wellness Center",
+          },
+          {
+            period: "2023 - 2024",
+            role: "Chief Operating and Financial Officer",
+            company: "Некоммерческий благотворительный фонд, Черногория",
+          },
+          {
+            period: "2019 - 2022",
+            role: "Director",
+            company: "MSP Factoring Service Center, Россия",
+          },
+          {
+            period: "2004 - 2019",
+            role: "Deputy Head of Regional Office / Head of Credit & Cash Office",
+            company: "VTB24 / VTB Bank, Россия",
+          },
+          {
+            period: "1997 - 2004",
+            role: "Ранние роли в финансах и кредитовании",
+            company: "EBRD SME Lending Program, SBS-Agro Bank, Sberbank",
+          },
         ],
+      },
+      education: {
+        label: "Образование",
+        title: "Специалист по экономике",
+        copy:
+          "Ярославский государственный университет, Россия, плюс расширенное профессиональное обучение по leadership, finance, recruitment, banking management, kinesitherapy, applied kinesiology и проектированию recovery-программ.",
       },
       contact: {
         label: "Контакты",
-        title: "Контакты и ссылки на профиль.",
-        copy: "",
+        title: "Давайте обсудим wellness-стратегию, recovery-концепции и операционную ясность.",
         links: [
           {
             label: "Email",
@@ -226,14 +325,31 @@ window.siteData = {
             label: "GitHub",
             href: "https://github.com/anna1975starostina-cpu",
           },
-          {
-            label: "Репозиторий сайта",
-            href: "https://github.com/anna1975starostina-cpu/Anna_Webcite1234",
-          },
         ],
+        form: {
+          nameLabel: "Ваше имя",
+          emailLabel: "Ваш email",
+          subjectLabel: "Тема",
+          messageLabel: "Сообщение",
+          submitLabel: "Отправить письмо",
+          note:
+            "Эта форма работает на GitHub Pages без backend: после отправки откроется ваш почтовый клиент с готовым письмом.",
+          placeholders: {
+            name: "Имя",
+            email: "email@example.com",
+            subject: "Обсуждение wellness-проекта",
+            message: "Напишите короткое сообщение",
+          },
+          validation: {
+            missing: "Пожалуйста, заполните имя, email, тему и сообщение.",
+            invalidEmail: "Пожалуйста, введите корректный email.",
+            ready: "Почтовый клиент должен открыться прямо сейчас.",
+          },
+        },
       },
       footer: {
-        line: "Анна Старостина",
+        line: "© 2026 Анна Старостина. Сделано для GitHub Pages.",
+        credit: "Двуязычный профильный сайт со статической contact-формой.",
       },
     },
   },

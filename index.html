@@ -2,17 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="page-title">Anna Starostina</title>
     <meta
       id="page-description"
       name="description"
       content="Anna Starostina: operations, wellness, recovery, hospitality concept development and leadership."
     />
-    <meta name="theme-color" content="#ede7dc" />
+    <meta name="theme-color" content="#f3eee7" />
     <meta id="og-title" property="og:title" content="Anna Starostina" />
     <meta
       id="og-description"
@@ -29,15 +26,23 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="ambient-glow ambient-glow-left"></div>
+    <div class="ambient-glow ambient-glow-right"></div>
+
     <div class="page-shell">
       <header class="site-nav">
-        <a class="brand" href="#top">Anna Starostina</a>
+        <a class="brand" href="#top" aria-label="Anna Starostina home">
+          <span class="brand-mark">AS</span>
+          <span class="brand-text">Anna Starostina</span>
+        </a>
+
         <div class="nav-controls">
-          <nav>
-            <a id="nav-story" href="#story">About</a>
-            <a id="nav-focus" href="#focus">Focus</a>
+          <nav class="primary-nav" aria-label="Primary navigation">
+            <a id="nav-expertise" href="#expertise">Expertise</a>
+            <a id="nav-career" href="#career">Career</a>
             <a id="nav-contact" href="#contact">Contact</a>
           </nav>
+
           <div class="lang-switcher" aria-label="Language switcher">
             <button class="lang-button" id="lang-en" type="button">EN</button>
             <button class="lang-button" id="lang-ru" type="button">RU</button>
@@ -46,80 +51,128 @@
       </header>
 
       <main id="top">
-        <section class="hero reveal">
+        <section class="hero reveal" aria-labelledby="headline">
           <div class="hero-copy">
-            <p class="eyebrow" id="eyebrow"></p>
+            <p class="hero-location" id="hero-location"></p>
             <h1 id="headline"></h1>
             <p class="hero-summary" id="summary"></p>
-            <div class="hero-actions">
+
+            <div class="hero-actions" aria-label="Profile actions">
               <a class="button button-primary" id="primary-cta" href="#contact"></a>
-              <a class="button button-secondary" id="secondary-cta" href="#story"></a>
+              <a class="button button-secondary" id="secondary-cta" href="#career"></a>
             </div>
+
+            <dl class="snapshot-grid" id="snapshot-grid" aria-label="Professional snapshot"></dl>
           </div>
 
-          <div class="hero-visual" aria-hidden="true">
-            <div class="visual-orb visual-orb-coral"></div>
-            <div class="visual-orb visual-orb-olive"></div>
-            <div class="portrait-shell">
-              <div class="portrait-frame" id="portrait-frame">
-                <img
-                  class="portrait-image"
-                  id="portrait-image"
-                  alt=""
-                />
-                <div class="portrait-monogram" id="portrait-monogram">AS</div>
-              </div>
-              <div class="visual-panel">
-                <span class="visual-kicker" id="visual-kicker">Wellness leadership</span>
-                <span class="visual-name" id="visual-name">Montenegro</span>
-                <span class="visual-line"></span>
-                <span class="visual-caption" id="visual-caption">Recovery, operations, financial control and guest experience.</span>
-              </div>
+          <div class="hero-visual">
+            <div class="portrait-frame" id="portrait-frame">
+              <img class="portrait-image" id="portrait-image" alt="" />
+              <div class="portrait-monogram" id="portrait-monogram">AS</div>
+            </div>
+
+            <div class="accent-card">
+              <p class="accent-card-label" id="visual-kicker"></p>
+              <p class="accent-card-title" id="visual-name"></p>
+              <p class="accent-card-copy" id="visual-caption"></p>
             </div>
           </div>
         </section>
 
-        <section class="story reveal" id="story">
-          <div class="section-heading">
-            <p class="section-label" id="story-label">About</p>
-            <h2 id="story-title"></h2>
-          </div>
-          <div class="story-layout">
-            <div class="story-text" id="story-body"></div>
-            <div class="story-metrics" id="metrics"></div>
+        <section class="profile-section reveal" aria-labelledby="profile-title">
+          <div class="section-header">
+            <p class="section-label" id="profile-label"></p>
+            <div class="section-copy">
+              <h2 id="profile-title"></h2>
+              <p id="profile-intro"></p>
+            </div>
           </div>
         </section>
 
-        <section class="focus reveal" id="focus">
-          <div class="section-heading">
-            <p class="section-label" id="focus-label">Focus</p>
-            <h2 id="focus-title"></h2>
-            <p class="section-intro" id="focus-intro"></p>
+        <section class="expertise-section reveal" id="expertise" aria-labelledby="expertise-title">
+          <div class="section-header">
+            <div>
+              <p class="section-label" id="expertise-label"></p>
+              <h2 id="expertise-title"></h2>
+            </div>
           </div>
-          <div class="focus-grid" id="focus-grid"></div>
+          <div class="expertise-grid" id="expertise-grid"></div>
         </section>
 
-        <section class="notes reveal" id="notes">
-          <div class="section-heading">
-            <p class="section-label" id="notes-label">Profile details</p>
-            <h2 id="notes-title"></h2>
-          </div>
-          <div class="notes-copy" id="notes-body"></div>
+        <section class="quote-section reveal" aria-labelledby="quote-title">
+          <blockquote class="quote-card">
+            <p class="section-label" id="quote-label"></p>
+            <p class="quote-text" id="quote-text"></p>
+          </blockquote>
         </section>
 
-        <section class="contact reveal" id="contact">
-          <div class="contact-card">
-            <p class="section-label" id="contact-label">Contact</p>
-            <h2 id="contact-title"></h2>
-            <p class="contact-copy" id="contact-copy"></p>
-            <div class="contact-links" id="contact-links"></div>
+        <section class="career-section reveal" id="career" aria-labelledby="career-title">
+          <div class="section-header">
+            <div>
+              <p class="section-label" id="career-label"></p>
+              <h2 id="career-title"></h2>
+            </div>
+          </div>
+          <ol class="timeline" id="career-list"></ol>
+        </section>
+
+        <section class="education-section reveal" aria-labelledby="education-title">
+          <div class="section-header">
+            <div>
+              <p class="section-label" id="education-label"></p>
+              <h2 id="education-title"></h2>
+            </div>
+            <p class="section-side-copy" id="education-copy"></p>
+          </div>
+        </section>
+
+        <section class="contact-section reveal" id="contact" aria-labelledby="contact-title">
+          <div class="section-header">
+            <div>
+              <p class="section-label" id="contact-label"></p>
+              <h2 id="contact-title"></h2>
+            </div>
+          </div>
+
+          <div class="contact-layout">
+            <form class="contact-form" id="contact-form">
+              <label class="field">
+                <span id="form-name-label"></span>
+                <input id="form-name" name="name" type="text" />
+              </label>
+
+              <label class="field">
+                <span id="form-email-label"></span>
+                <input id="form-email" name="email" type="email" />
+              </label>
+
+              <label class="field">
+                <span id="form-subject-label"></span>
+                <input id="form-subject" name="subject" type="text" />
+              </label>
+
+              <label class="field field-message">
+                <span id="form-message-label"></span>
+                <textarea id="form-message" name="message" rows="6"></textarea>
+              </label>
+
+              <div class="form-actions">
+                <button class="button button-primary" id="form-submit" type="submit"></button>
+                <p class="form-note" id="form-note"></p>
+                <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+
+            <aside class="contact-links-panel">
+              <div class="contact-links" id="contact-links"></div>
+            </aside>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <span id="footer-line"></span>
-        <span id="footer-year"></span>
+        <p id="footer-line"></p>
+        <p id="footer-credit"></p>
       </footer>
     </div>
 
